@@ -8,6 +8,9 @@
     "sub_directories": [
         {
             "name": "Inbox"
+        },
+        {
+            "name": "Quadcopter"
         }
     ],
     "tags": [

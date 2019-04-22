@@ -3,16 +3,24 @@
 ## Clone
 ```
  git clone https://github.com/PX4/Firmware.git 
+ git clone https://github.com/PX4/Bootloader.git
 ```
 you can select specail version 
 ```
  git tag -l
  git checkout ${version}
 ```
+
+update submoduel
+```
+git submodule update --init --recursive
+```
+
 ## Build simulator
 ```
  make posix jmavsim
 ```
+**The compiler of arm-none-eabi-gcc must be v7 on linux** 
 
 ## Build for Borads
 | Borad                           |                   command                    |
